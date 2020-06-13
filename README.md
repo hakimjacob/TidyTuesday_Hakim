@@ -11,4 +11,4 @@ The place where I put all the outcomes of my #TidyTuesday experiments (see https
 
 <img src="https://github.com/hakimjacob/TidyTuesday_Hakim/blob/master/Plots/TT-ACbugs-normscale.jpg"  />
 
-<img src="https://github.com/hakimjacob/TidyTuesday_Hakim/blob/master/Plots/TT-AC-fish-normscale.jpg"  />
+<img src="https://github.com/hakimjacob/TidyTuesday_Hakim/blob/master/Plots/Tidy-AC-fish-normscale.jpg"  />
