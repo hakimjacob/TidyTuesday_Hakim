@@ -3,4 +3,4 @@ The place where I put all the outcomes of my #TidyTuesday experiments (see https
 
 ***
 [03/31 Beer production by state](/R_scripts/20200401-tt-beer.R)
-<img src="https://github.com/hakimjacob/TidyTuesday_Hakim/Plots/beermap_tt.gif"  />
+<img src="https://github.com/hakimjacob/TidyTuesday_Hakim/blob/master/Plots/beermap_tt.gif"  />
