@@ -3,4 +3,12 @@ The place where I put all the outcomes of my #TidyTuesday experiments (see https
 
 ***
 [03/31 Beer production by state](/R_scripts/20200401-tt-beer.R)
+
 <img src="https://github.com/hakimjacob/TidyTuesday_Hakim/blob/master/Plots/beermap_tt.gif"  />
+
+***
+06/13 Animal Crossing: New Horizons, [bugs](R_scripts/tt-AC-hakim-BUGS-normscale.R) and [fish](R_scripts/tt-AC-hakim-FISH-normscale.R) sorted by sell price
+
+<img src="https://github.com/hakimjacob/TidyTuesday_Hakim/blob/master/Plots/TT-ACbugs-normscale.jpg"  />
+
+<img src="https://github.com/hakimjacob/TidyTuesday_Hakim/blob/master/Plots/TT-AC-fish-normscale.jpg"  />
