@@ -45,7 +45,7 @@ ggplot(female_firsts, aes(x=decade, y=1, group = index, fill=category)) +
  # title
    annotate(geom = "text",
            x=1800,y=20,
-           hjust=0.18, vjust=0.5,
+           hjust=0.14, vjust=0.5,
            label="Achievements of Black Women in America",
            size=13, lineheight=.8,
            family="Impact",
