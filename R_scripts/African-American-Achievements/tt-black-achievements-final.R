@@ -14,6 +14,7 @@ setwd("C:/Users/jake/Documents/R/tt-blm")
 female_firsts <- firsts %>%  
   mutate(decade = year - year %% 10) %>% # add decade values
   filter(gender=="Female African American Firsts") %>%
+  filter(!(year == 1760)) %>% # Remove Jupiter Hammon (error)
   group_by(decade) %>%
   arrange(category) %>% # arrange categories for bar graph
   mutate(category = recode(category,
@@ -22,7 +23,8 @@ female_firsts <- firsts %>%
   mutate(index = row_number()) %>%
   ungroup()
   
-  
+
+# BAR PLOT
 ggplot(female_firsts, aes(x=decade, y=1, group = index, fill=category)) +
   
   geom_bar(stat="identity",
@@ -36,8 +38,8 @@ ggplot(female_firsts, aes(x=decade, y=1, group = index, fill=category)) +
 
   # x axis labels
   scale_x_continuous(name = "Decade",
-                   breaks = seq(1730, 2010, by = 10),
-                   labels = paste0(seq(1730, 2010, by = 10), "s"),
+                   breaks = seq(1770, 2010, by = 10),
+                   labels = paste0(seq(1770, 2010, by = 10), "s"),
                    expand = c(0, 1)) +
   
  # title
@@ -97,23 +99,23 @@ ggplot(female_firsts, aes(x=decade, y=1, group = index, fill=category)) +
                                     family="Verdana")) +
 
   # add line and label for achievements
-  # Jupiter Hammon
-  geom_curve(x = 1761, y = 9, 
-             xend = 1760, yend = 1,
+  # Phillis Wheatley
+  geom_curve(x = 1770, y = 9, 
+             xend = 1769, yend = 1,
              curvature = 0.1,
              size=0.6) +
 
   annotate(geom="text",
-           x = 1760, y = 10.5,
+           x = 1765, y = 10.5,
            hjust=0,
-           label="Jupiter Hammon",
+           label="Phillis Wheatley",
            size=4, lineheight=.8,
            fontface="bold",
            color="#708090") +
   annotate(geom="text",
-           x = 1760, y = 9.7,
+           x = 1765, y = 9.85,
            hjust=-0.02,
-           label="First Published \nAfrican American \nAuthor, 1760",
+           label="First African American Woman\nTo Publish a Book, 1773",
            size=2.5, lineheight=.8,
            color="#708090") +
 
@@ -131,7 +133,7 @@ geom_curve(x = 1870, y = 8.9,
            fontface="bold",
            color="#708090") +
   annotate(geom="text",
-           x = 1865, y = 9.5,
+           x = 1865, y = 9.6,
            hjust=-0.02,
            label="First African American \nWoman to Earn An M.D., 1864",
            size=2.5, lineheight=.8,
@@ -159,4 +161,4 @@ geom_curve(x = 1955, y = 13,
            color="#708090")
 
 # save as jpg (9.57 x 6.92)
-ggsave("female-african-american-achievements.jpg", dpi=600)  
+ggsave("female-african-american-achievements.jpg", width=9.57, height=6.92, dpi=600)  
