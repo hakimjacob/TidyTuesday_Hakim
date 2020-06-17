@@ -8,9 +8,9 @@ The place where I put all the outcomes of my #TidyTuesday experiments (see https
 
 <img src="https://github.com/hakimjacob/TidyTuesday_Hakim/blob/master/Plots/bexar-corona2.jpg"  />
 
-<img src="https://github.com/hakimjacob/TidyTuesday_Hakim/blob/master/Plots/travis-corona1-5day.jpg"  />
+<img src="https://github.com/hakimjacob/TidyTuesday_Hakim/blob/master/Plots/Travis-corona1-5day.jpg"  />
 
-<img src="https://github.com/hakimjacob/TidyTuesday_Hakim/blob/master/Plots/travis-corona2.jpg"  />
+<img src="https://github.com/hakimjacob/TidyTuesday_Hakim/blob/master/Plots/Travis-corona2.jpg"  />
 
 <img src="https://github.com/hakimjacob/TidyTuesday_Hakim/blob/master/Plots/tarrant-corona1-5day.jpg"  />
 
