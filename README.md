@@ -4,6 +4,8 @@ The place where I put all the outcomes of my #TidyTuesday experiments (see https
 ***
 06/16 COVID-19 rates in [Bexar](R_scripts/texas-covid/bexar-corona.R), [Travis](R_scripts/texas-covid/travis-corona.R), and [Tarrant](R_scripts/texas-covid/tarrant-corona.R) Counties
 
+<img src="https://github.com/hakimjacob/TidyTuesday_Hakim/blob/master/Plots/bexar-corona3.jpg"  />
+
 <img src="https://github.com/hakimjacob/TidyTuesday_Hakim/blob/master/Plots/bexar-corona1-5day.jpg"  />
 
 <img src="https://github.com/hakimjacob/TidyTuesday_Hakim/blob/master/Plots/bexar-corona2.jpg"  />
